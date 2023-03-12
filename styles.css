@@ -1,0 +1,270 @@
+*{
+    margin :0;
+    padding: 0;
+}
+
+body{
+    background-image: url(health-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#wrapper{
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    border: 1px solid black;
+    max-width: 60vw;
+    margin: auto;
+    background-color:rgba(0,0,0,0.7);
+}
+
+.head{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 2rem;
+}
+
+
+.head p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+#line{
+    margin-top: 1rem;
+    background-color: grey;
+    height: 1px;
+    border: none;
+}
+
+.details{
+    padding: 15px 60px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    column-gap: 0px;
+}
+
+.details label{
+    font-size: 1.2em;
+}
+
+#fname,#lname{
+    width: 37%;
+    height: 2vh;
+    padding: 10px;
+    font-size: 1rem;
+    color: grey;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-weight: 600;
+}
+
+#lname{
+    margin-left: 2px;
+}
+
+#email{
+    width: 80%;
+    height: 2vh;
+    padding: 10px;
+    font-size: 1rem;
+    color: grey;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-weight: 600;
+}
+
+#date,#phone{
+    width: 90%;
+    height: 2vh;
+    padding: 10px;
+    font-size: 1rem;
+    color: grey;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-weight: 600;
+}
+
+.f5,.f6{
+    grid-column: 1 / span 2;
+}
+
+.f5 #street,#street2{
+    width: 96.46%;
+    height: 2vh;
+    padding: 10px;
+    font-size: 1rem;
+    color: grey;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-weight: 600;
+}
+
+.f5 #city,#state,#pin{
+    width: 46.5%;
+    height: 2vh;
+    padding: 10px;
+    font-size: 1rem;
+    color: grey;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-weight: 600;
+}
+
+.f5 #state{
+    margin-left: 2px;
+}
+
+.form-control {
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+    margin-top: 15px;
+    font-weight:normal;
+  }
+
+#age{
+    width: 55%;
+    height: 2vh;
+    padding: 10px;
+    font-size: 1rem;
+    color: grey;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-weight: 600;
+}
+
+#gender{
+    width: 98.5%;
+    height: 2.3em;
+    position: relative;
+    top: 10px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 1rem;
+    color: grey;
+    font-weight: 600;
+}
+
+.medical{
+    padding: 15px 60px;
+}
+
+.medical label{
+    font-size: 1.2em;
+}
+
+.med-1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+textarea{
+    width: 98.5%;
+    height: 125px;
+    position: relative;
+    bottom: 17px;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: grey;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-weight: 600;
+}
+
+.bmi{
+    padding: 15px 60px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    column-gap: 0px;
+}
+
+.bmi label{
+    font-size: 1.2em;
+}
+
+.bmi-1{
+    width: 77.8%;
+    height: 2vh;
+    padding: 10px;
+    font-size: 1rem;
+    color: grey;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-weight: 600;
+}
+
+.bmi #l3{
+    grid-column: 1 / span 2;
+}
+
+.exercise{
+    padding: 15px 60px;
+}
+
+.exercise label{
+    font-size: 1.2em;
+}
+
+.exercise #ex{
+    width: 96.5%;
+    height: 2vh;
+    padding: 10px;
+    font-size: 1rem;
+    color: grey;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-weight: 600;
+}
+
+.exercise .rate{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.1;
+    gap:5px;
+}
+
+.btn{
+    padding: 60px 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn button{
+    width: 28.5%;
+    height: 3em;
+    position: relative;
+    font-size: 1em;
+    top:11px;
+    background-color: rgb(18, 219, 78);
+    border: none;
+    color: rgb(255,255,255);
+}
+
+
